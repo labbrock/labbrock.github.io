@@ -6,51 +6,77 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <style type="text/css" id="vuetify-theme-stylesheet">a {
+  <style type="text/css" id="vuetify-theme-stylesheet">
+
+  a {
     color: #DAA520;
   }
 
-  .jenny {
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif !important;
-    font-size:20px!important;
+  h2{
+    font-size:22px!important;
   }
-</style>
+
+  .content {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:18px!important;
+  }
+
+  #listan{
+    margin: 0;
+
+  }
+  
+  
+  .rubrik{
+    text-decoration:underline
+  }
+
+  </style>
 </head>
 <body>
-<div id="app">
-  <div data-app="true" class="application theme--light">
-    <div class="application--wrap">
-      
-      <main class="v-content" data-booted="true" style="padding: 0px;">
-        <div class="v-content__wrap">
-          <section>
-            <div class="v-parallax" style="height:250px;">
-              <div class="v-parallax__image-container"><img src="" class="v-parallax__image"
-                width=90px
-              style="display: block; opacity: 1;">
-              </div>
-            </div>
-          </section>
-          <section style="padding:5px">
-            <div class="layout column wrap align-center">
-              <div class="flex xs12 sm4">
-                <div class="text-xs-left"><h2 class="headline jenny">
-                  Labbrock - co:stickers 2020<br><br>Sweden should be pioneer in lab communication in 2020.<i>Labbrock [labb-rock]</i> is the Swedish slang expression for white coat named to give a strong association to Life Science Sweden. The vision of Labbrock is to do our best to make that happen – together with our brave customers  – based on a social innovation with co:stickers.
-                  <br><br>The use of co:stickers as a co:working tool in a accelerated and focused approach while encourage social sustainability is unique – especially within labs and Life Science. Also, environmental sustainability responsibility takes seriously with on demand eco printing of the co:stickers made from eco papers together with eco shipping.
-                  <br><br>Examples of co:actions applications:
-                   <br>o   Encourage social sustainability
-                   <br>o   Accelerate and focus your co:working 
-                   <br>o   Employer branding and marketing tool
-                   <br>o   Make your work culture stand out 
-                   <br>o   Faster inclusion and onboarding of new hires
-                   <br>o   Better involve weak speakers and introvert talents
-                   <br>o   Inspire the scientists of tomorrow 
-                   <br><br>
-                  Launching soon for online availability.<br>Until then, let’s follow <a href="https://instagram.com/go.labbrock" target="_blank">@go.labbrock</a> to get co:inspired for your scientific work week.
-                  <br>
-                  Please spread the word and to learn more feel free to contact <a href="mailto:hello@labbrock.com?Subject=Hello" target="_top">hello@labbrock.com</a>. 
-                  <span class="rubrik">Hejsan</span>
+  <div id="app" >
+    <div data-app="true" class="application theme--dark">
+      <div class="application--wrap">
+
+        <main class="v-content" data-booted="true" style="padding: 0px;">
+          <div class="v-content__wrap">
+            <section style="padding:15px 20%;">
+              <div class="layout column wrap align-center">
+                <div class="flex xs12 sm4">
+                  <div class="text-xs-left content" style="text-align: justify!important">
+                    <h2 class="headline rubrik">Labbrock - co:stickers 2020</h2>
+
+                    <p>
+                      Sweden should be pioneer in lab communication in 2020.
+                      <i>Labbrock [labb-rock]</i> is the Swedish slang expression for white coat named to give a strong association to Life Science Sweden. The vision of Labbrock is to do our best to make that happen – together with our brave customers  – based on a social innovation with co:stickers.
+                    </p>
+
+                    <p>
+                      The use of co:stickers as a co:working tool in a accelerated and focused approach while encourage social sustainability is unique – especially within labs and Life Science. Also, environmental sustainability responsibility takes seriously with on demand eco printing of the co:stickers made from eco papers together with eco shipping.
+                    </p>
+
+                    <p>
+                     Examples of co:actions applications
+                     <ul id="listan">
+                      <li>Encourage social sustainability</li>
+                      <li>Accelerate and focus your co:working </li>
+                      <li>Employer branding and marketing tool</li>
+                      <li>Make your work culture stand out </li>
+                      <li>Faster inclusion and onboarding of new hires</li>
+                      <li>Better involve weak speakers and introvert talents</li>
+                      <li>Inspire the scientists of tomorrow </li>
+                    </ul>
+                  </p>
+
+                  <p>
+                    Launching soon for online availability.
+                    <br>
+                    Until then, let’s follow <a href="https://instagram.com/go.labbrock" target="_blank">@go.labbrock</a> to get co:inspired for your scientific work week.
+                  </p>
+
+                  <p>
+                    Please spread the word and to learn more feel free to contact <a href="mailto:hello@labbrock.com?Subject=Hello" target="_top">hello@labbrock.com</a>. 
+                  </p>
 
                 </div>
               </div>
@@ -64,22 +90,15 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>
 <script>
-  new Vue({
-    el: '#app',
-    data () {
-      return {
-        title: 'Your Logo'
-      }
+new Vue({
+  el: '#app',
+  data () {
+    return {
+      title: 'Your Logo'
     }
-  })
+  }
+})
 </script>
-  
-  <style>
-    .rubrik{
-      font-decoration:underline
-    }
-  </style>
-
 
 </body>
 </html>
