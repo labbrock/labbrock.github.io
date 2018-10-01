@@ -45,8 +45,5 @@ export default {
         })
       }
     }
-  },
-  router: {
-    base: '/dist'
   }
 }
