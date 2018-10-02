@@ -1,28 +1,24 @@
 <template>
 
-  <v-app dark>
+  <v-app light>
     <v-content style="margin-top: 30px" class="content">
-      <h1 class="headline">Labbrock - <span class="co">co</span>:stickers 2020</h1>
+      <h1 class="headline"> Labbrock – costickers from Life Science Sweden</h1>
 
       <p>
-        Sweden should be pioneer in lab communication in 2020.
-        <i>Labbrock [labb-rock]</i> is the Swedish slang expression for white coat named to give a strong
-        association to Life Science Sweden. The vision of Labbrock is to do our best to make that happen –
-        together with our brave customers – based on a social innovation with <span class="co">co</span>:stickers.
+        Life Science of the future is here – more important than ever – and Sweden should be pioneer in lab
+        communication in 2020. Labbrock [labb-rock] is the Swedish slang expression for white coat named to give a
+        strong association to Life Science Sweden. The vision of Labbrock is to do our best to make that happen –
+        together with our brave customers – based on a social innovation with costickers.
       </p>
 
       <p>
-        The use of <span class="co">co</span>:stickers as a <span class="co">co</span>:working tool in a accelerated
-        and
-        focused approach while encourage
-        social sustainability is unique – especially within labs and Life Science. Also, environmental
-        sustainability responsibility takes seriously with on demand eco printing of the <span class="co">co</span>:stickers
-        made
-        from eco papers together with eco shipping.
+        The use of costickers as a coworking tool in a accelerated, focused and helpful approach while encourage social
+        sustainability is unique – especially within labs and Life Science.
       </p>
+      <br>
 
 
-      <v-list dark subheader>
+      <v-list light subheader>
         <v-list-tile
           v-for="item in items"
           :key="item"
@@ -39,24 +35,22 @@
 
 
       <br>
-
       <h4>
         Launching soon
       </h4>
 
       <p>
-        Follow our journey on
-        <a class="co" href="https://instagram.com/go.labbrock"
-           target="_blank">@go.labbrock</a>
-        to get
-        <span class="co">co</span>:inspired or <br>contact us on
-        <a class="co"
-           href="mailto:hello@labbrock.com?Subject=Hello"
-           target="_top">hello@labbrock.com</a>.
+        Let’s get coinspired by follow <a class="co" href="https://instagram.com/go.labbrock" target="_blank">@go.labbrock</a>.
+        <br>To learn more feel free to contact <a class="co" href="mailto:hello@labbrock.com?Subject=Hello"
+                                                  target="_top">hello@labbrock.com</a>.
+        <br>
+        <span class="co">#lifesciencecostickers</span>
+
       </p>
     </v-content>
     <v-footer
       dark
+      light
       height="auto"
     >
       <v-card
@@ -65,7 +59,7 @@
         tile
       >
         <v-card-actions class="justify-center">
-          &copy;2018 <strong>Labbrock</strong>
+          &copy;2018 Labbrock
         </v-card-actions>
       </v-card>
     </v-footer>
@@ -75,6 +69,10 @@
 </template>
 
 <style scoped>
+
+  .v-list__tile__title {
+    font-size: 18px
+  }
 
   .co {
     color: #bc8f8f;
@@ -86,7 +84,7 @@
     font-size: 24px !important;
   }
 
-  .theme--dark.v-list {
+  .theme--light.v-list {
     background: none;
   }
 
@@ -104,22 +102,15 @@
   export default {
     data () {
       return {
-        icons: [
-          'fab fa-facebook',
-          'fab fa-twitter',
-          'fab fa-google-plus',
-          'fab fa-linkedin',
-          'fab fa-instagram'
-        ],
         items: [
-          {title: 'Encourage social sustainability'},
-          {title: 'Accelerate and focus your co:working'},
-          {title: 'Employer branding and marketing tool'},
-          {title: 'Make your work culture stand out'},
-          {title: 'Faster inclusion and onboarding of new hires'},
-          {title: 'Better involve weak speakers and introvert talents'},
-          {title: 'Inspire the scientists of tomorrow'},
-        ].map(d => d.title.toLowerCase())
+          'Encourage social sustainability',
+          'Accelerate and focus your coworking',
+          'Tool for employer branding and marketing',
+          'Make your work culture stand out',
+          'Faster inclusion and onboarding',
+          'Better involve weak speakers and introvert talents',
+          'Inspire and attract talents of tomorrow'
+        ].map(d => d.toLowerCase())
       }
     }
   }
