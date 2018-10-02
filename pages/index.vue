@@ -2,7 +2,7 @@
 
   <v-app light>
     <v-content style="margin-top: 30px" class="content">
-      <h1 class="headline"> Labbrock – costickers from Life Science Sweden</h1>
+      <h1 class="headline"> Labbrock.</h1>
 
       <p>
         Life Science of the future is here – more important than ever – and Sweden should be pioneer in lab
