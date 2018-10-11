@@ -5,27 +5,30 @@
       <h1 class="headline"> Labbrock.</h1>
 
       <p>
-        Sweden should be pioneer in lab communication within 2021. The vision of Labbrock is to do our best to make that happen – together with you as a customer – based on a social innovation with costickers. We attach value of keeping up the social dimension. That is why we initially have chosen not to sell the costickers online to give us a unique opportunity to get to known your needs.
+        <i>
+          "The fusion of verbal and non-verbal is the lab communication of tomorrow."
+        </i>
+        - Jenny M.L, Labbrock
       </p>
-
-      <p>
-        We will start the journey in Life Science West. We are open-minded to collaborate with all companies, research teams, university educations and health tech ecosystems that have a courage and willingness to be a part of the new way of coworking and communicate in labs.
-      </p>
-
-      <p>
-        Coactions Labbrock can do: encourage social sustainability, accelerate and focus coworking, tool for employer branding and marketing, make work culture stand out, faster inclusion and on-boarding, better involve weak speakers and introvert talents, inspire and attract talents of tomorrow.
-      </p>
-
-      <br>
 
 
       <p>
-        To learn more please share your contact information at <a class="co" href="mailto:hello@labbrock.com?Subject=Hello"
-                                                                  target="_top">hello@labbrock.com</a>.
-        <br>
-        <br>
-        <span class="co">#lifesciencecostickers</span>
+        Life Science of the future is here – more important than ever – and Sweden should take the opportunity to become
+        pioneers in lab communication. Labbrock [labb-rock] is the Swedish slang expression for white coat named to give
+        a strong association to the Swedish Life Science. Our vision is to do our best to make it happen – together with
+        our customers – based on a social innovation with costickers. Come join our journey now! All we require from you
+        is a courage and willingness to be part of the new way of coworking in Life Science.
 
+        <br><br>
+        To learn more now feel free
+        to contact <a class="co" href="mailto:hello@labbrock.com?Subject=Hello" target="_top">hello@labbrock.com</a>.
+      </p>
+
+
+
+      <p>
+        <span class="co">#swedishlifescience</span>
+        <span class="co">#labbrock2020</span>
       </p>
     </v-content>
     <v-footer
