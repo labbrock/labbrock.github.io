@@ -11,18 +11,15 @@
         – Jenny M.L, Labbrock
       </p>
 
-
       <p>
         Life Science of the future is here – more important than ever – and Sweden should take the opportunity to become
         pioneer in lab communication before 2022. Labbrock [labb-rock] is the Swedish slang expression for white coat,
-        named to give a strong association to the Swedish Life Science. Our goal is to inspire the power of implement
+        named to give a strong association to the swedish Life Science. Our goal is to inspire the power of implement
         non-verbal communication tools in labs to helping solve a fundamental problem – weak verbal lab communication –
-        that will prevent the ongoing investments and coactions to strengthen the Swedish Life Science to become a
+        that will prevent the ongoing investments and coactions to strengthen the swedish Life Science to become a
         world-leading nation of the future. We are convinced that by using color marks/logic symbols it will create
-        sustainable social innovations – with small efforts/high outputs – in complex work environments by:
-
+        sustainable social innovations – with small efforts/high outputs – in complex work environments.
       </p>
-
 
       <ul>
         <li>encourage 360° inclusion and diversity.</li>
@@ -31,10 +28,9 @@
         <li>attract external investors and talents with USP.</li>
       </ul>
 
-
       <p>
         <br>
-        Come join our journey now! We will start the implementation in the West Swedish Life Science. We are open-minded
+        Come join our journey now! We will start the implementation in West Sweden. We are open-minded
         to collaborate with all companies, research teams, university educations and the upcoming ecosystem platforms.
         The color marks/logic symbols are available for free with an accompanying manual and individualised
         collaboration setup.
@@ -43,25 +39,14 @@
         to contact <a class="co" href="mailto:hello@labbrock.com?Subject=Hello" target="_top">hello@labbrock.com</a>.
       </p>
 
-
       <p>
-        <!--<span class="co">#swedishlifescience</span>-->
         <span class="co">#labbrock2022</span>
       </p>
     </v-content>
-    <v-footer
-      dark
-      light
-      height="auto"
-    >
-      <v-card
-        class="flex"
-        flat
-        tile
-      >
-        <v-card-actions class="justify-center">
-          &copy;2018 Labbrock
-        </v-card-actions>
+
+    <v-footer dark light height="auto">
+      <v-card class="flex" flat tile>
+        <v-card-actions class="justify-center">&copy;2018 Labbrock</v-card-actions>
       </v-card>
     </v-footer>
   </v-app>
@@ -78,6 +63,10 @@
   .co {
     color: #bc8f8f;
     font-weight: 800;
+  }
+
+  li {
+    font-size: 16px;
   }
 
   h1 {
