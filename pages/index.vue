@@ -6,29 +6,47 @@
 
       <p>
         <i>
-          "The fusion of verbal and non-verbal is the lab communication of tomorrow."
+          "The lab is the heart of your innovation business."
         </i>
-        - Jenny M.L, Labbrock
+        – Jenny M.L, Labbrock
       </p>
 
 
       <p>
         Life Science of the future is here – more important than ever – and Sweden should take the opportunity to become
-        pioneers in lab communication. Labbrock [labb-rock] is the Swedish slang expression for white coat named to give
-        a strong association to the Swedish Life Science. Our vision is to do our best to make it happen – together with
-        our customers – based on a social innovation with costickers. Come join our journey now! All we require from you
-        is a courage and willingness to be part of the new way of coworking in Life Science.
+        pioneer in lab communication before 2022. Labbrock [labb-rock] is the Swedish slang expression for white coat,
+        named to give a strong association to the Swedish Life Science. Our goal is to inspire the power of implement
+        non-verbal communication tools in labs to helping solve a fundamental problem – weak verbal lab communication –
+        that will prevent the ongoing investments and coactions to strengthen the Swedish Life Science to become a
+        world-leading nation of the future. We are convinced that by using color marks/logic symbols it will create
+        sustainable social innovations – with small efforts/high outputs – in complex work environments by:
 
+      </p>
+
+
+      <ul>
+        <li>encourage 360° inclusion and diversity.</li>
+        <li>create social sustainability in high performance cultures.</li>
+        <li>accelerating and focusing collaborations.</li>
+        <li>attract external investors and talents with USP.</li>
+      </ul>
+
+
+      <p>
+        <br>
+        Come join our journey now! We will start the implementation in the West Swedish Life Science. We are open-minded
+        to collaborate with all companies, research teams, university educations and the upcoming ecosystem platforms.
+        The color marks/logic symbols are available for free with an accompanying manual and individualised
+        collaboration setup.
         <br><br>
         To learn more now feel free
         to contact <a class="co" href="mailto:hello@labbrock.com?Subject=Hello" target="_top">hello@labbrock.com</a>.
       </p>
 
 
-
       <p>
-        <span class="co">#swedishlifescience</span>
-        <span class="co">#labbrock2020</span>
+        <!--<span class="co">#swedishlifescience</span>-->
+        <span class="co">#labbrock2022</span>
       </p>
     </v-content>
     <v-footer
