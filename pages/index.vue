@@ -2,7 +2,7 @@
 
   <v-app light>
     <v-content style="margin-top: 30px" class="content">
-      <h1 class="headline"> Labbrock.</h1>
+      <h1 class="headline"> Labbrock</h1>
 
       <p>
         <i>
@@ -14,29 +14,22 @@
       <p>
         Life Science of the future is here – more important than ever – and Sweden should take the opportunity to become
         pioneer in lab communication before 2022. Labbrock [labb-rock] is the Swedish slang expression for white coat,
-        named to give a strong association to the swedish Life Science. Our goal is to inspire the power of implement
-        non-verbal communication tools in labs to helping solve a fundamental problem – weak verbal lab communication –
-        that will prevent the ongoing investments and coactions to strengthen the swedish Life Science to become a
-        world-leading nation of the future. We are convinced that by using color marks/logic symbols it will create
-        sustainable social innovations – with small efforts/high outputs – in complex work environments.
+        named to give a strong association to the Swedish Life Science. Our goal is to inspire the power of implement
+        logic marks on white coats as non-verbal communication MECA-trigger, aimed to create sustainable social
+        innovations – with small efforts and high outputs – in complex lab environments.
       </p>
 
       <ul>
-        <li>encourage 360° inclusion and diversity.</li>
-        <li>create social sustainability in high performance cultures.</li>
-        <li>accelerating and focusing collaborations.</li>
-        <li>attract external investors and talents with USP.</li>
+        <li>Make coactions with speed and focus.</li>
+        <li>Encourage 360° inclusion and diversity. </li>
+        <li>Create social sustainability in high performance cultures.</li>
+        <li>Attract external investors and talents with USP.</li>
       </ul>
 
       <p>
         <br>
-        Come join our journey now! We will start the implementation in West Sweden. We are open-minded
-        to collaborate with all companies, research teams, university educations and the upcoming ecosystem platforms.
-        The color marks/logic symbols are available for free with an accompanying manual and individualised
-        collaboration setup.
-        <br><br>
-        To learn more now feel free
-        to contact <a class="co" href="mailto:hello@labbrock.com?Subject=Hello" target="_top">hello@labbrock.com</a>.
+        Are you ready to become a pioneer? Start your journey now by contact: <a class="co" href="mailto:hello@labbrock.com?Subject=Hello" target="_top">hello@labbrock.com</a>.
+        Sustainable social innovations – from employees to patients and relatives – with love from Sweden.
       </p>
 
       <p>
@@ -83,7 +76,6 @@
   }
 
   .content {
-    text-align: justify;
     width: 800px;
     margin: auto;
     font-family: 'Montserrat', sans-serif !important;
@@ -91,21 +83,3 @@
   }
 
 </style>
-
-<script>
-  export default {
-    data () {
-      return {
-        items: [
-          'encourage social sustainability',
-          'Accelerate and focus your coworking',
-          'Tool for employer branding and marketing',
-          'Make your work culture stand out',
-          'Faster inclusion and onboarding',
-          'Better involve weak speakers and introvert talents',
-          'Inspire and attract talents of tomorrow'
-        ].map(d => d.toLowerCase())
-      }
-    }
-  }
-</script>
